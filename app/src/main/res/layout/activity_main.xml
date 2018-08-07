@@ -37,7 +37,7 @@
         android:layout_marginBottom="200dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="150dp"
-        android:text="Button1"
+        android:text="Button2"
         app:layout_constraintBottom_toTopOf="@+id/navigation"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
