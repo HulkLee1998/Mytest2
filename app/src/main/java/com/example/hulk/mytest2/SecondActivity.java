@@ -13,8 +13,8 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        Button button2 =(Button)findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+        Button button =(Button)findViewById(R.id.button2);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
