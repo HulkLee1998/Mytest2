@@ -14,5 +14,33 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:text="This is Text1"
+
+        android:textColor="#152ef1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="344dp"
+        android:layout_height="364dp"
+
+        app:layout_constraintBottom_toTopOf="@id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text1"
+
+        />
+
 </android.support.constraint.ConstraintLayout>
